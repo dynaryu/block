@@ -107,7 +107,7 @@ PROGRAM MAIN
 	real*8 :: aa1
 	integer :: nnn ! 임시용임... 나중에 찾아서 지울것.
 
-	time1 = time();
+	! time1 = time();
 	call Read_Data;		! get structure data
 	kkk = kp;
 	
@@ -352,9 +352,9 @@ PROGRAM MAIN
 		
 	call Print_Result;
 
-	time2 = time();
+	! time2 = time();
 
-	print *," Analysis Time = ", time2-time1;
+	! print *," Analysis Time = ", time2-time1;
 
 	
 	deallocate(X); 
